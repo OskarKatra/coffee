@@ -1,0 +1,280 @@
+h4,
+h5,
+h6,
+h1,
+h2,
+h3 {
+    margin-top: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+html,
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 100%;
+    background: #fff;
+}
+
+body a {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    color: #fff3ea;
+}
+
+.center {
+    margin-top: 4vh;
+}
+
+.new {
+    display: block;
+}
+
+
+/*****************************************************
+CSS for Logo and Logo-div.
+*****************************************************/
+.logo {
+    float: left;
+    display: inline;
+    margin-left: 15vw;
+    margin-bottom: 5vh;
+    max-height: 15vh;
+    max-width: 15vw;
+}
+
+.logo h1 {
+    font-size: 7em;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-family: 'Dorsa', sans-serif;
+    letter-spacing: 5px;
+}
+.logo h1 a {
+    color: #fff;
+}
+
+.logo h1 a:hover {
+    text-decoration: none;
+}
+
+.topindex {
+    max-height: 15vh;
+}
+
+/*****************************************************/
+
+
+/*****************************************************
+CSS for category title on each page.
+*****************************************************/
+.top-name {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3vh;
+    text-align: center;
+    color: #fff3ea;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+/*****************************************************/
+
+
+/*****************************************************
+CSS for welcome-text.
+*****************************************************/
+.welcometext {
+    margin-top: 10vh;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 65vw;
+    padding: 5em;
+    background-color: rgba(249, 217, 190, 0.1);
+    text-align: center;
+}
+
+.welcometext h2,
+h3 {
+    color: white;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+/*****************************************************/
+
+
+/*****************************************************
+CSS for box-div. 
+*****************************************************/
+.box {
+    background-color: rgba(249, 217, 190, 0.1);
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2vh;
+    color: #fff3ea;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 12px;
+}
+
+.box a:hover {
+    color: white;
+}
+/*****************************************************/
+
+
+/*****************************************************
+CSS for brand.
+*****************************************************/
+.brand {
+    max-height: 50vh;
+    overflow: scroll;
+}
+
+.imgmax {
+    max-height: 20vh;
+    background-color: black;
+    margin-bottom: 3vh;
+}
+
+.menu {
+    padding-top: 5vh;
+    float: right;
+    margin-right: 15vw;
+}
+/*****************************************************/
+
+
+/***************************************************** 
+CSS for Social-top div and social-img.
+*****************************************************/
+.social {
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    color: #fff3ea;
+    z-index: 1;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: rgba(249, 217, 190, 0.1);
+}
+
+.socialimg {
+    max-height: 3vh;
+    max-width: 2vw;
+    display: inline;
+}
+
+.social a:hover {
+    color: white;
+}
+/*****************************************************/
+
+
+/*****************************************************
+CSS for footer.
+*****************************************************/
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    color: #fff3ea;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: rgba(249, 217, 190, 0.1);
+}
+/*****************************************************/
+
+
+/***************************************************** 
+CSS for video-background
+*****************************************************/
+article {
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 0px solid rgba(255, 255, 255, 0.5);
+    margin: 10px;
+}
+
+#video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}
+/*****************************************************/
+
+/*****************************************************
+CSS for smartphones.
+*****************************************************/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .menu {
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2vh;
+    }
+    .logo {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+    .top-name {
+        display: none;
+    }
+    .footer {
+        display: none;
+    }
+    .brand {
+        max-height: none;
+        max-width: 90vw;
+    }
+    .box {
+        max-width: 90vw;
+    }
+    .social {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .center {
+        margin-top: 5vh;
+    }
+    .topindex {
+        height: 15vh;
+        margin-left: auto;
+		margin-right: auto;
+		float:none;
+    }
+}
+/**************************************************************/
+
+/*************************************************************
+CSS for Tablets.
+*************************************************************/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+}
