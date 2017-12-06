@@ -44,6 +44,7 @@ body a {
 /*****************************************************
 CSS for Logo and Logo-div.
 *****************************************************/
+
 .logo {
     float: left;
     display: inline;
@@ -60,6 +61,7 @@ CSS for Logo and Logo-div.
     font-family: 'Dorsa', sans-serif;
     letter-spacing: 5px;
 }
+
 .logo h1 a {
     color: #fff;
 }
@@ -72,12 +74,14 @@ CSS for Logo and Logo-div.
     max-height: 15vh;
 }
 
+
 /*****************************************************/
 
 
 /*****************************************************
 CSS for category title on each page.
 *****************************************************/
+
 .top-name {
     margin-left: auto;
     margin-right: auto;
@@ -86,12 +90,15 @@ CSS for category title on each page.
     color: #fff3ea;
     font-family: 'Montserrat Alternates', sans-serif;
 }
+
+
 /*****************************************************/
 
 
 /*****************************************************
 CSS for welcome-text.
 *****************************************************/
+
 .welcometext {
     margin-top: 10vh;
     border-radius: 25px;
@@ -108,12 +115,15 @@ h3 {
     color: white;
     font-family: 'Montserrat Alternates', sans-serif;
 }
+
+
 /*****************************************************/
 
 
 /*****************************************************
 CSS for box-div. 
 *****************************************************/
+
 .box {
     background-color: rgba(249, 217, 190, 0.1);
     border-radius: 25px;
@@ -128,12 +138,15 @@ CSS for box-div.
 .box a:hover {
     color: white;
 }
+
+
 /*****************************************************/
 
 
 /*****************************************************
 CSS for brand.
 *****************************************************/
+
 .brand {
     max-height: 50vh;
     overflow: scroll;
@@ -150,12 +163,15 @@ CSS for brand.
     float: right;
     margin-right: 15vw;
 }
+
+
 /*****************************************************/
 
 
 /***************************************************** 
 CSS for Social-top div and social-img.
 *****************************************************/
+
 .social {
     position: fixed;
     top: 0;
@@ -179,12 +195,15 @@ CSS for Social-top div and social-img.
 .social a:hover {
     color: white;
 }
+
+
 /*****************************************************/
 
 
 /*****************************************************
 CSS for footer.
 *****************************************************/
+
 .footer {
     position: fixed;
     bottom: 0;
@@ -197,12 +216,15 @@ CSS for footer.
     font-family: 'Montserrat Alternates', sans-serif;
     background-color: rgba(249, 217, 190, 0.1);
 }
+
+
 /*****************************************************/
 
 
 /***************************************************** 
 CSS for video-background
 *****************************************************/
+
 article {
     margin-left: auto;
     margin-right: auto;
@@ -225,11 +247,15 @@ article {
     height: auto;
     z-index: -100;
 }
+
+
 /*****************************************************/
+
 
 /*****************************************************
 CSS for smartphones.
 *****************************************************/
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     .menu {
         width: 90vw;
@@ -237,13 +263,13 @@ CSS for smartphones.
         margin-right: auto;
         margin-bottom: 2vh;
     }
-    .logo {
-        margin-left: auto;
-        margin-right: auto;
-        float: none;
-    }
     .top-name {
         display: none;
+    }
+    .logo {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
     }
     .footer {
         display: none;
@@ -260,21 +286,47 @@ CSS for smartphones.
         top: 0;
         left: 0;
     }
+    .topindex{
+        margin-left: auto;
+        margin-right: auto;
+
+    }
     .center {
         margin-top: 5vh;
-    }
-    .topindex {
-        height: 15vh;
-        margin-left: auto;
-		margin-right: auto;
-		float:none;
+        text-align: center;
     }
 }
+
+
 /**************************************************************/
+
 
 /*************************************************************
 CSS for Tablets.
 *************************************************************/
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+    .menu{
+        margin-left: auto;
+        margin-right: auto;
+        float:none;
+        text-align:center;
+    }
+    .logo {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .topindex{
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .center {
+        margin-top: 5vh;
+        text-align: center;
+    }
+
+    
 }
