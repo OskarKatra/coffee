@@ -1,74 +1,124 @@
-
 <!DOCTYPE HTML>
 <html>
-<head>
-<title>Kaffenord</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<!-- Custom Theme files -->
-<link href="css/style.css" rel='stylesheet' type='text/css' />
-<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="css/round-about.css" rel="stylesheet">
-<!-- Custom Theme files -->
-<!--webfont-->
-<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Dorsa' rel='stylesheet' type='text/css'>
-<link href="https://fonts.googleapis.com/css?family=Catamaran|Montserrat+Alternates|Pacifico" rel="stylesheet">
-<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
-<!-- start menu -->
-<link href="css/megamenu.css" rel="stylesheet" type="text/css" media="all" />
-<script type="text/javascript" src="js/megamenu.js"></script>
-<script>$(document).ready(function(){$(".megamenu").megamenu();});</script>
-<script src="js/jquery.easydropdown.js"></script>
-<script src="js/simpleCart.min.js"> </script>
+<head>
+	<title>Kaffenord</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+	<!-- CSS -->
+	<link href="css/style.css" rel='stylesheet' type='text/css' />
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="vendor/bootstrap/css/bootstrap.css" rel='stylesheet' type='text/css' />
+
+	<!--Google Fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Catamaran|Montserrat+Alternates|Pacifico" rel="stylesheet">
+	<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Dorsa' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+
+	<!-- Scripts for menu -->
+	<link href="css/megamenu.css" rel="stylesheet" type="text/css" media="all" />
+	<script type="text/javascript" src="js/megamenu.js"></script>
+	<script>$(document).ready(function () { $(".megamenu").megamenu(); });</script>
+	<script src="js/jquery.easydropdown.js"></script>
 </head>
-<body>	
-		
+
+<body>
+
 	<div>
-			<article>
-				<div class="center">
-					<div class="logo">
-							<img src="images/logo.gif" class="img-responsive topindex" alt=""/>
-						   </div>
-						   <div class="menu">
-				 <ul class="megamenu skyblue">
-					<li ><a href="start.html">Start</a></li>
-					<li><a  href="coffeebrands.html">Vårt Kaffe</a></li>
-					<li><a  href="shop.html">Shop</a></li>				
-					<li><a  href="about.html">Om Oss</a></li>
-					<li><a class="active grid" href="contact.html">Kontakt</a></li>
+		<article>
+			<div class="center">
+				<div class="logo">
+					<img src="images/logo.gif" class="img-responsive topindex" alt="" />
+				</div>
+				<div class="menu">
+					<ul class="megamenu skyblue">
+						<li>
+							<a href="index.html">Start</a>
+						</li>
+						<li>
+							<a href="coffeebrands.html">Vårt Kaffe</a>
+						</li>
+						<li>
+							<a href="shop.html">Shop</a>
+						</li>
+						<li>
+							<a href="about.html">Om Oss</a>
+						</li>
+						<li class="active grid">
+							<a  href="contact.html">Kontakt</a>
+						</li>
 						<div class="clearfix"> </div>
 					</ul>
 				</div>
+			</div>
+			<div class="clearfix"> </div>
+			<div class="row">
+				<div class="col-lg-12 top-name">
+					<h2 class="color4">Kontakta Oss</h2>
+				</div>
+				<div class="col-lg-6 col-sm-10 text-center mb-4 box">
+					<div class="col-lg-6 col-sm-6 boxleft">
+						<form method="post" action="http://www.kaffenord.se/cgi-bin/FormMail.pl" accept-charset="ISO-8859-1" onsubmit="var originalCharset = document.charset; 
+								document.charset = 'ISO-8859-1'; 
+								window.onbeforeunload = function () {document.charset=originalCharset;};">
+							Namn
+							<br />
+							<input class="contactform" name="realname" />
+							<br /> E-post
+							<br />
+							<input class="contactform" name="email" />
+							<br /> Meddelande
+							<br />
+							<textarea class="contactform" cols="40" rows="10" name="Message"></textarea>
+							<br />
+							<input type="submit" class="contactbtn" value="Skicka" />
+							<input type="hidden" name="recipient" value="daniel@kaffenord.se" />
+							<input type="hidden" name="subject" value="Subject" />
+							<input type="hidden" name="redirect" value="http://www.kaffenord.se/test/start.html" />
+							<input type="hidden" name="missing_fields_redirect" value="http://www.example.com/fel.html" />
+							<input type="hidden" name="required" value="realname,email,Message" />
+						</form>
 					</div>
-					<div class="clearfix"> </div>
-					<div class="row">
-							<div class="col-lg-12 top-name">
-							  <h2 class="color4">Kontakta Oss</h2>
-							</div>
-							<div class="col-lg-6 col-sm-6 text-center mb-4 box">
-                                <h2>Place för kontaktformulär</h2>
-
-						  </div>
-					
+					<div class="col-lg-6 col-sm-6 boxright">
+						<div class="col-lg-12 col-sm-12">
+								<ul class="contactlist">
+										<li>Kaffenord AB</li>
+										<li>Org nr: 559124-6045</li>
+										<li>VAT SE559124604501</li>
+										<li>F-Skatt Registrerad</li>
+									</ul>
 						</div>
-					</div>
-					</div>
-				</article>
-				
-	</div>
-	
+						
+						<div class="col-lg-12 col-sm-12">
+							<ul class="contactlist">
+								<li>kaffenordab@gmail.com</li>
+								<li>Daniel@kaffenord.se</li>
+								<li>+46 703 21 24 01</li>
+							</ul>
+						</div>
 
-   <video autoplay loop id="video-background" muted plays-inline>
+						
+					</div>
+
+				</div>
+			</div>
+	</div>
+	</article>
+
+	</div>
+
+
+	<video autoplay loop id="video-background" muted plays-inline>
 		<source src="images/vid.mp4" type="video/mp4">
-      </video>
-      <div class="footer">
-            <h6 >©Kaffenord</h6>
-          </div>
+	</video>
+	<div class="footer">
+		<h6>©Kaffenord</h6>
+	</div>
 </body>
-</html>		
+
+</html>

@@ -77,6 +77,11 @@ CSS for Logo and Logo-div.
 
 /*****************************************************/
 
+.boxshop{
+    padding-left:2vw;
+    padding-right:2vw;
+    
+}
 
 /*****************************************************
 CSS for category title on each page.
@@ -134,6 +139,8 @@ CSS for box-div.
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 12px;
 }
+
+
 
 .box a:hover {
     color: white;
@@ -196,9 +203,143 @@ CSS for Social-top div and social-img.
     color: white;
 }
 
+.boxright{
+    float:right;
+    margin-top:2vh;
+}
+
+.boxleft{
+    float:left;
+    margin-top:2vh;
+}
 
 /*****************************************************/
 
+/*****************************************************
+CSS for Webshop.
+*****************************************************/
+.shopbox{
+    padding-left:2vw !important;
+    padding-right:2vw !important;
+}
+
+.spinner-input{
+    background-color: transparent !important;
+}
+
+.onecom-webshop-main .spinner .btn.btn-down {
+    border-right: 0;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNyIgaGVpZ2h0PSIyIiB2aWV3Qm94PSIwI…M1Vi4yNThoNi4zM3oiIGZpbGw9IiMwMDAiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg==);
+    background-color: transparent;
+    color: #fff3ea;
+}
+
+.onecom-webshop-main .show {
+    display: block!important;
+    background-color: transparent;
+}
+
+.onecom-webshop-main .spinner .btn.btn-up {
+    border-left: 0;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNyIgaGVpZ2h0PSI4IiB2aWV3Qm94PSIwI…44MDNWLjY2N2guOTV6IiBmaWxsPSIjMDAwIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4=);
+    background-color: transparent;
+    color: #fff3ea;
+}
+
+.onecom-webshop-main dropdown .dropdown-component .selected{
+    background-color: transparent !important;
+    color: #fff3ea !important;
+    border-radius: 25px;
+}
+
+.selected-text{
+    color: #fff3ea !important;
+}
+
+.dropdown-component a:hover{
+    background-color:rgba(195, 118, 55, 0.3) !important;
+    
+}
+
+.onecom-webshop-main .checkout .order-details .order-detail-well{
+    background-color: rgba(249, 217, 190, 0.3) !important;
+    color: #fff3ea !important;
+    border-color: #fff3ea !important;
+    border-radius: 25px;
+}
+#shippingEmail, #shippingFirstName, #shippingLastName, #shippingAddress, #shippingZip, #shippingCity, #shippingPhoneNumber, #shippingCompany, #shippingCountry{
+    background-color:rgba(249, 217, 190, 0.3) !important;
+    border-radius: 10px;
+    border-color: #fff3ea !important;
+    color: #fff3ea !important;
+}
+
+.onecom-webshop-main .checkout .shipping-address-section .custom-notes textarea{
+    background-color:rgba(249, 217, 190, 0.3) !important;
+    border-radius: 10px;
+    border-color: #fff3ea !important;
+    color: #fff3ea !important;
+}
+
+.onecom-webshop-main .spinner .btn.btn-down{
+    border-color: #fff3ea !important;
+    color: #fff3ea !important;
+     background-color:rgba(249, 217, 190, 0.3) !important;
+}
+
+.onecom-webshop-main .spinner .btn.btn-up{
+    border-color: #fff3ea !important;
+    color: #fff3ea !important;
+     background-color:rgba(249, 217, 190, 0.3) !important;
+}
+
+.onecom-webshop-main .button.button-checkout, .onecom-webshop-main .button.button-continue, .onecom-webshop-main .button.button-pay, .onecom-webshop-main .button.button-seemore, .onecom-webshop-main .button.button-back, .onecom-webshop-main .product .info .button-addtocart, .input-group .form-control:not(:first-child):not(:last-child), .input-group-addon:not(:first-child):not(:last-child), .input-group-btn:not(:first-child):not(:last-child){
+    background-color:rgba(249, 217, 190, 0.3) !important;
+    border-radius: 10px;
+    border-color: #fff3ea !important;
+    color: #fff3ea !important;
+}
+
+::-webkit-input-placeholder{
+    color:#fff3ea !important;
+}
+
+
+/*****************************************************/
+
+
+.contactform{
+    background-color:rgba(249, 217, 190, 0.3) !important;
+    border-radius: 10px;
+    border-color: #fff3ea !important;
+    color: #fff3ea !important;
+    width:80%;
+    margin-top:1vh;
+    margin-bottom:1vh;
+}
+
+.contactlist{
+    list-style:none;
+    text-align:left;
+}
+
+.contactleft{
+    margin-top:3vh;
+   
+}
+
+.contactbtn{
+    background-color:rgba(249, 217, 190, 0.3) !important;
+    border-radius: 10px;
+    border-color: #fff3ea !important;
+    color: #fff3ea !important;
+    margin-top:1vh;
+}
+
+.contactimg{
+  
+    max-height:100px;
+}
 
 /*****************************************************
 CSS for footer.
